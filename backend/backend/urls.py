@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from catalog import views
+from shipments import views
 
 
 urlpatterns = [
