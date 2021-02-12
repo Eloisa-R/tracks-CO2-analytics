@@ -10,7 +10,7 @@
        </div>
     <div class="navbar-menu">
      <router-link class="navbar-item" to="/">Home</router-link>
-     <router-link class="navbar-item" to="/analytics">CO2 Analytics</router-link>
+     <router-link class="navbar-item" to="/analytics">Carriers CO2 Analytics</router-link>
     </div>
     </nav>
     <router-view/>

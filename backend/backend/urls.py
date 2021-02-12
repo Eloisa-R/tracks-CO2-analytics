@@ -2,7 +2,4 @@ from django.conf.urls import url
 from shipments import views
 
 
-urlpatterns = [
-    url(r'^api/public/', views.public),
-    url(r'^api/all/', views.all)
-]
+urlpatterns = [url(r"^api/carriers/all", views.all)]
